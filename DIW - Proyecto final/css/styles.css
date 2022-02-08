@@ -21,6 +21,9 @@ footer .footer_links ul li a{
 footer .footer_links ul li a:hover{
     color: white;
 }
+#logo > img{
+    content: url("../img/Sports.png");
+}
 .copyright{
     background-color: rgb(121, 120, 120);
     color: white;
