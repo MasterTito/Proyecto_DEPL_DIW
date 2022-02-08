@@ -1,0 +1,85 @@
+/* resetea los estilos del navegador */
+*{margin: 0; padding: 0;}
+ul.menu{
+    background-color: coral;
+}
+ul.menu > li > a{
+    font-size: 20px;
+}
+ul.menu > li a{
+    color: black;
+}
+ul.menu > li a:hover{
+    color: white;
+}
+footer{
+    background-color: coral;
+}
+footer .footer_links ul li a{
+    color: black;
+}
+footer .footer_links ul li a:hover{
+    color: white;
+}
+.copyright{
+    background-color: rgb(121, 120, 120);
+    color: white;
+    font-size: 10px;
+    
+}
+header .user-utils > div > a i{
+    color: black;
+}
+header .user-utils > div > #my-account i{
+    color: black;
+}
+#shopping-cart{
+    color: rgb(121, 120, 120);
+    font-weight: bold;
+    text-decoration: none;
+}
+#my-account{
+    color: rgb(121, 120, 120);
+    font-weight: bold;
+    text-decoration: none;
+}
+header > .row > .contacto > div a{
+    color: rgb(121, 120, 120);
+    text-decoration: none;
+    font-weight: bold;
+}
+#producto1{
+    margin-bottom: 40px;
+}
+#producto1 > ul{
+    font-size: 20px;
+    list-style: none;
+    color: black;
+   display: inline-block;
+   text-align: left;   
+}
+.img1{
+  margin-bottom: 100px;
+}
+.fa-trash{
+    font-size: 25px;    
+}
+button{    
+    border: none;
+    margin-left: 250px;
+    
+}
+#producto2 > ul{
+    font-size: 20px;
+    list-style: none;
+    color: black;
+   display: inline-block;
+   text-align: left;   
+}
+#producto3 > ul{
+    font-size: 20px;
+    list-style: none;
+    color: black;
+   display: inline-block;
+   text-align: left;   
+}
