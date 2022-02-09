@@ -32,6 +32,7 @@ footer .footer_links ul li a:hover{
 }
 header .user-utils > div > a i{
     color: black;
+    font-size: 25px;
 }
 header .user-utils > div > #my-account i{
     color: black;
