@@ -95,3 +95,20 @@ hr{
     color: black;
     text-align: left;    
 }
+#totop{
+    display: none;
+    position: fixed;
+    right: 40px;
+    bottom: 64px;
+    width: 30px;
+    height: 32px;
+    background: black;
+    z-index: 9999;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 9px;
+    color: white;
+}
+.parr{
+    margin-top: -90px;
+}

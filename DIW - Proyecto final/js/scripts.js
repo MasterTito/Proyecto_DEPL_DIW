@@ -31,6 +31,19 @@ $(document).ready(function(){
         compra();
         sumar();
     });
+    $(document).scroll(function() {
+
+        if($(this).scrollTop() > 30){          
+          $('#totop').fadeIn(500);
+    
+        }else{          
+          $('#totop').fadeOut(500);
+        }
+      });
+    
+      $('#totop').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 600);
+      });
     
     
 });
