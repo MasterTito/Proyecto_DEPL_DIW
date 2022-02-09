@@ -112,3 +112,10 @@ hr{
 .parr{
     margin-top: -90px;
 }
+header .user-utils #shopping-cart > span{
+    font-size: 12px;
+    width: 16px;
+    height: 16px;
+    margin-top: -3px;
+    padding-top: 1px;
+}
