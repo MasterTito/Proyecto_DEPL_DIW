@@ -6,17 +6,31 @@ $(document).ready(function(){
             $("#main").text("No hay ningún producto en el carrito");
         }
     }
+    function sumar(){
+        var suma = 0;
+        $(".precio_T").each(function(){
+            suma+=parseFloat($(this).text());
+            $(".precio_Total").text(suma);
+            
+        })
+    }
     compra();
+    sumar();
     $("#borrar1").on("click", function() {
         $("#producto1").remove();
         compra();
+        sumar();
     });
     $("#borrar2").on("click", function() {
         $("#producto2").remove();
         compra();
+        sumar();
     });
     $("#borrar3").on("click", function() {
         $("#producto3").remove();
         compra();
+        sumar();
     });
+    
+    
 });

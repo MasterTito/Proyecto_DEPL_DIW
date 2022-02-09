@@ -87,3 +87,11 @@ button{
    display: inline-block;
    text-align: left;   
 }
+hr{
+    color: black;    
+}
+.gastos > p{
+    font-size: 20px;
+    color: black;
+    text-align: left;    
+}
