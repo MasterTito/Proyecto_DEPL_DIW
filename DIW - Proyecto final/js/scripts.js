@@ -4,6 +4,8 @@ $(document).ready(function(){
         $("header .user-utils #shopping-cart > span").text(cantidad);
         if(cantidad==0){
             $("#main").text("No hay ningún producto en el carrito");
+            $("#main").css({"margin-left": "31%", "font-size": "30px"});
+
         }
     }
     function sumar(){
